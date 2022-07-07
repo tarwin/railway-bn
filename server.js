@@ -1,3 +1,5 @@
+console.log('ENV', process.env)
+
 // server.js
 export default {
   port: Number(process.env.PORT ?? 3000),
